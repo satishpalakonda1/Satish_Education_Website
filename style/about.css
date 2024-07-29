@@ -1,0 +1,68 @@
+.about img{
+    width: 100%;
+}
+.about .hh1{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 200px;
+    font-size: 50px;
+}
+.about .about-1 h1{
+    text-align: center;
+
+}
+.about .about-1
+{
+    max-width: 1800px;
+    min-width: 900px;
+    text-align: center;
+    margin-left: 100px;
+    background-color: #f0f8ff;
+}
+.about-1:nth-child(2) {
+    background-color: #DAEAF3;
+    color: black;
+}
+.about-1:nth-child(3) {
+    background-color: #DB92AD;
+}
+.about-1:nth-child(4) {
+    background-color: #8C3B76;
+}
+.about .about-1 p{
+   
+    font-size: 20px;
+    font-family: Arial;
+}
+.about .mission{
+    background-color: rgba(109, 100, 100, 0.577);
+    color: white;
+    width: 450px;
+    font-size: 20px;
+    font-family: arial;
+    transition: background-color 1s;
+}
+.about .mission:hover{
+    background-color: rgba(63, 59, 59, 0.9);
+}
+.about .mission{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    flex-wrap: nowrap;
+    
+   
+}
+
+
+.about .mission p{
+    line-height:1.5em
+}
+.about .choose
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

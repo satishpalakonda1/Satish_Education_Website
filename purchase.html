@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="style/nav1.css">
+    <link rel="stylesheet" href="style/nav2.css">
+    <link rel="stylesheet" href="style/purchase.css">
+    
+</head>
+<body>
+    <div class="navigation1">
+        <div style="min-width:0px;max-width: 10px;"></div>
+        <div class="nav">
+            <a href="liveclasses.html">Live Classes</a>
+            <a href="NewBatches.html">New Batches</a>
+            <a href="hirefromus.html">Hire From Us</a>
+            <a href="#"><img src="images/call-icon.png" >1234567890</a>
+            <a href="mailto:someone@example.com"><img src="images/mail-icon.png" >satis@gmail.com</a>
+
+        </div>
+
+    </div>
+    <div class="navigation2">
+         <img class="logo" src="images/logo.jpg" alt="">
+         <div class="search">
+            <input type="text" placeholder="Search Course">
+            <button><img src="images/search.png" alt=""></button>
+         </div>
+         <a href="main.html"><img src="images/home.png" alt=""></a>
+         <a href="mycourse.html">MY COURSES</a>
+         <a href="services.html">SERVICES</a>
+         <a href="NewBatches.html">TRAINING</a>
+         <a href="about.html">ABOUT</a>
+         <a href="contact.html">CONTACT</a>
+         <a href="login.html"><button>Login</button></a>
+
+    </div>
+    
+    <div class="purchase-adjust">
+        <div style="min-width: 0px; max-width: 500px;"></div>
+        <div class="purchase">
+            <h1>Information Collection Form</h1>
+            <form action="submit_form.php" method="post">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+    
+                <label for="training-mode">Mode of Training</label>
+                <select id="training-mode" name="training-mode" required>
+                    <option value="online">Online</option>
+                    <option value="offline">Offline</option>
+                    <option value="corporate">Corporate</option>
+                    <option value="internship">Internship</option>
+                </select>
+    
+                <label for="additional-info">Additional Information</label>
+                <textarea id="additional-info" name="additional-info" rows="4"></textarea>
+    
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div style="min-width: 0px; max-width: 500px;"></div>
+
+    </div>
+
+
+
+    
+</body>
+</html>
+
+
+

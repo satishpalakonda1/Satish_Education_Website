@@ -1,0 +1,47 @@
+*{
+    
+}
+.adjust-enroll{
+    display: grid;
+    grid-template-columns: 1fr 500px 1fr;
+    margin-top: 200px;
+}
+.adjust-enroll .enroll{
+    background: purple;
+    height: 350px;
+    
+}
+
+.adjust-enroll .enroll h1{
+ text-align: center;
+}
+.adjust-enroll .enroll form input{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    width: 80%;
+  }
+  .adjust-enroll .enroll form .skip{
+ padding: 10px 40px;
+    margin-left: 105px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: white;
+    font-size: 20px;
+  }
+  .adjust-enroll .enroll form .btn{
+   padding: 10px 40px;
+    margin-left: 45px;
+    border-radius: 5px;
+    background-color: rgb(37, 37, 232);
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+  .adjust-enroll .enroll form .skip-submit
+  {
+    margin-top: 40px;
+  }

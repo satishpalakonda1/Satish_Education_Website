@@ -1,0 +1,79 @@
+
+.navigation2{
+  display: grid;
+  grid-template-columns: 100px 1fr 30px 150px 150px 150px 150px 150px 100px;
+  grid-gap: 10px;
+  margin-bottom: 20px;
+  
+ 
+
+}
+.navigation2 .logo{
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: aquamarine;
+
+}
+.navigation2 a img{
+    width: 30px;
+    height: 30px;
+    margin-top: -30px;
+}
+.navigation2 .search button img{
+    width: 30px;
+    height: 30px;
+   margin-top: 2px;
+  
+}
+.navigation2 input{
+    height: 50px;
+    margin-top: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  
+}
+.navigation2 input::placeholder{
+    font-size: 20px;  
+    font-family: arial ;
+    font-weight: bold;
+}
+.navigation2 .search button{
+    height: 54px;
+    margin-top: 20px;
+    margin-left: -1px;
+    background-image: linear-gradient(red,orange);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.navigation2 a{
+    color:black;
+  font-size: 20px;
+  font-family: arial;
+  
+  margin-top: 38px;
+ text-decoration: none;
+  margin-left: 10px;
+}
+.navigation2 a:hover{
+    text-decoration: underline;
+}
+.navigation2 a button{
+    margin-top: -20px;
+    vertical-align: top;
+    height: 50px;
+    width: 100px;
+    margin-right: 50px;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    color:white;
+    cursor: pointer;
+}
+
+.navigation2 .search{
+    display: grid;
+    grid-template-columns: 1fr 80px;
+   max-width: 700px;
+   min-width: n30px;
+}

@@ -1,0 +1,133 @@
+
+*{
+    font-size: 20px;
+    font-family: arial ;
+}
+.wrapper
+{
+    margin-top: 100px;
+    width:600px;
+    background: rgb(203, 122, 203);
+    color: white;
+    height: 400px;
+    border-radius: 50px;
+
+   
+}
+.wrapper .login-register{
+   text-align: center;
+   
+   
+  
+}
+.wrapper .login-register a
+{
+   height: 50px;
+   background-color: white;
+   padding: 10px 20px;
+   margin-top: 500px;
+   margin-left: 20px;
+   text-decoration: none;
+   border-radius: 10px;
+
+}
+.wrapper .login-register .reg-1
+{
+    background-color: blue;
+    
+}
+a:active{
+    background-color: white;
+    color: green;
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+.wrapper .input-box{
+    width: 80%;
+    height: 50px;
+    background: rgb(203, 122, 203);
+    margin:30px 0;
+   margin-bottom: 20px;
+   border: 1px solid black;
+   margin-left: 60px;
+   border-radius: 25px;
+}
+.input-box input{
+    width: 78%;
+   
+    background: transparent;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(234, 88, 173, 0.2);
+    font-size: 16px;
+    color: white;
+    padding:20px 45px 20px 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+.input-box input::placeholder{
+    color: white;
+    font-size: 20px;
+
+
+}
+.wrapper .remember-forget{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+    margin-top: 20px;
+
+}
+.wrapper .remember-forget label input{
+    accent-color: white;
+    margin-right: 3px;
+    margin-left:80px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+}
+.wrapper .remember-forget a{
+    margin-right: 70px;
+    font-size: 20px;
+}
+.wrapper .btn{
+    width: 30%;
+    height:45px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin-left: 200px;
+    margin-top: 20px;
+
+}
+.wrapper .register-link{
+
+   text-align: center;
+    margin: 30px;
+    font-size: 20px;
+    
+}
+.register-link p a{
+    color: white;
+    text-decoration: none;
+    text-decoration: underline;
+
+
+}
+.adjust-login{
+    display: grid;
+    grid-template-columns: 1fr 500px 1fr;
+}
+
+

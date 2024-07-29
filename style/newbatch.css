@@ -1,0 +1,39 @@
+
+
+#batchTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#batchTable thead {
+    background-color: #f4f4f4;
+}
+
+#batchTable th, #batchTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#batchTable th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#batchTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#batchTable tr:hover {
+    background-color: #f1f1f1;
+}
+
+#batchTable a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+#batchTable a:hover {
+    text-decoration: underline;
+}

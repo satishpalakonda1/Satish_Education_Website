@@ -1,0 +1,60 @@
+.service {
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.service p{
+    min-width: 800px;
+    max-width: 1500px;
+    margin-left: 200px;
+}
+.service:nth-child(1) {
+    background-color: #5A9B3F;
+}
+.service:nth-child(2) {
+    background-color: #DAEAF3;
+    color: black;
+}
+.service:nth-child(3) {
+    background-color: #DB92AD;
+}
+.service:nth-child(4) {
+    background-color: #8C3B76;
+}
+.button {
+    background-color: #f04e31;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.advantage {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #F3F1F1;
+    padding: 20px;
+}
+.advantage-item {
+    background-color: #6db08c;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+.advantage-item:hover{
+   transform: scale(1.2);
+}
+.advantage-item:nth-child(2) {
+    background-color: #b1b4e0;
+}
+.advantage-item:nth-child(3) {
+    background-color: #a0aabf;
+}
+.advantage-item:nth-child(4) {
+    background-color: #5d6e9a;
+}

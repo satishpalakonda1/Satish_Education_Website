@@ -1,0 +1,84 @@
+
+.edu .coaching-info .bgimg{
+    
+    height: 750px;
+    background-size: cover;
+    margin-top: 5px;
+    background-color: rgb(135, 135, 216);
+}
+.edu .coaching-info .corse{
+    height: 500px;
+    width: 400px;
+   margin-top: 100px;
+    border: 2px solid black;
+   
+    margin-left: 50px
+    
+    
+}
+.edu .coaching-info .corse:hover{
+    transform: scale(1.01);
+}
+.edu .coaching-info .corse a img{
+    width: 400px;
+    height: 250px;
+  
+}
+.edu .coaching-info .corse h3{
+    width: 400px;
+   
+    font-size: 20px;
+    font-family: Arial;
+    margin-left: 10px;
+}
+.edu .coaching-info .corse p{
+    width: 400px;
+    
+    font-size: 20px;
+    font-family: Arial;
+    margin-left: 10px;
+}
+.edu .coaching-info .corse .corseEnd{
+    
+    display: grid;
+    grid-template-columns: 200px 200px;
+}
+.edu .coaching-info .corse .corseEnd a{
+    width: 195px;
+    height: 50px;
+    background-color: red;
+}
+.edu .coaching-info .corse .corseEnd a button{
+    width: 200px;
+    height: 50px;
+    background-color: rgba(171, 171, 233, 0.444);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.training-features .features-main{
+    display: flex;
+   
+    height: 200px;
+    cursor: pointer;
+}
+.training-features
+{
+    display: flex;
+    margin-left: 140px;
+    margin-top: 50px;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+.training-features .features-main .features-data{
+    width: 600px;
+    background-color:rgba(171, 171, 233, 0.444);
+    padding-left: 20px;
+
+}
+.training-features .features-main .features-data p{
+    font-size: 20px;
+}
+.training-features .features-main:hover{
+    transform: scale(1.1);
+}

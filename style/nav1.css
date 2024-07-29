@@ -1,0 +1,38 @@
+.navigation1 .nav a img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+   
+   
+    
+    
+}
+.navigation1{
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    background-color: black;
+    min-height: 50px;
+    
+    
+    
+}
+.nav{
+  margin-top: 12px;
+}
+.navigation1 .nav a{
+  color: white;
+  font-size: 20px;
+  font-family: arial;
+  vertical-align: middle;
+ 
+  margin-left: 10px;
+  
+ 
+}
+.navigation1 .nav a:link{
+   text-decoration: none;
+}
+.navigation1 .nav a:hover
+{
+   text-decoration: underline;
+}
